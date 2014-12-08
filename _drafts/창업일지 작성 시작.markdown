@@ -1,7 +1,0 @@
----
-layout: post
-title:  "창업일지 작성 시작"
-date:   2014-12-09 00:00:00
-categories: 창업일지
----
-
