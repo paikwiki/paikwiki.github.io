@@ -6,7 +6,7 @@ date:   2014-06-16 02:59:39
 
 테스트로 쓴 글입니다. 가가가
 
-잘 나오는지 확인.
+잘 나오는지 확인. dsafa
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
