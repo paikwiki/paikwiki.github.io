@@ -6,8 +6,6 @@ date:   2014-06-16 02:59:39
 
 테스트로 쓴 글입니다.
 
-# Systax highlighter
-
 ## html
 
 ~~~html
@@ -87,7 +85,7 @@ $(function() {
 });
 ```
 
-#php
+## php
 
 ```php
 <?php
