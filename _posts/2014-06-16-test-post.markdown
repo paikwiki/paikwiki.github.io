@@ -6,6 +6,10 @@ date:   2014-06-16 02:59:39
 
 테스트로 쓴 글입니다.
 
+# Systax highlighter
+
+## html
+
 ```html
 <title>RTRPRSS</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -21,6 +25,8 @@ date:   2014-06-16 02:59:39
 <meta http-equiv="pragma" content="No-Cache" />
 <meta http-equiv="Last-Modified" content="Sun,21 Dec 2014 01:00:00" />
 ```
+
+## css
 
 ```css
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -73,11 +79,15 @@ table {
 }
 ```
 
+## javascript
+
 ```javascript
 $(function() {
   alert('it works!');
 });
 ```
+
+#php
 
 ```php
 <?php
