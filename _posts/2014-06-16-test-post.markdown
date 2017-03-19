@@ -10,7 +10,7 @@ date:   2014-06-16 02:59:39
 
 ## html
 
-```html
+~~~html
 <title>RTRPRSS</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="ko" />
@@ -24,11 +24,11 @@ date:   2014-06-16 02:59:39
 <meta http-equiv="cache-control" content="No-Cache" />
 <meta http-equiv="pragma" content="No-Cache" />
 <meta http-equiv="Last-Modified" content="Sun,21 Dec 2014 01:00:00" />
-```
+~~~
 
 ## css
 
-```css
+~~~css
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -77,7 +77,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-```
+~~~
 
 ## javascript
 
