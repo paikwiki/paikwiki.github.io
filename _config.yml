@@ -9,9 +9,5 @@ github_username:  paikwiki
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+# highlighter: rouge
 permalink: pretty
-
-# 마크다운 처리기
-redcarpet:
-  extensions: []
