@@ -9,14 +9,18 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Nanum Barun Gothic', Helvetica, Arial, sans-serif;
   font-size: 16px;
+  color: #3c3c3c;
   line-height: 1.5;
   font-weight: 300;
   background-color: #fdfdfd;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: bold;
+}
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
@@ -41,7 +45,6 @@ a:visited { color: #205caa; }
 /* Site header */
 
 .site-header {
-  border-top: 5px solid #333;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   background-color: white;
@@ -56,6 +59,7 @@ a:visited { color: #205caa; }
   letter-spacing: -1px;
   float: left;
   line-height: 56px;
+  font-weight: 800;
   position: relative;
   z-index: 1;
 }
@@ -71,6 +75,7 @@ a:visited { color: #205caa; }
   margin-left: 20px;
   color: #727272;
   letter-spacing: -.5px;
+  font-weight: 600;
 }
 
 /* Site footer */
@@ -151,14 +156,14 @@ a:visited { color: #205caa; }
 .posts li { margin-bottom: 30px; }
 
 .posts .post-link {
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: -1px;
   line-height: 1;
 }
 
 .posts .post-date {
   /*display: block;*/
-  font-size: 15px;
+  font-size: 12px;
   color: #818181;
 }
 
@@ -169,10 +174,10 @@ a:visited { color: #205caa; }
 .post-header { margin: 10px 0 30px; }
 
 .post-header h1 {
-  font-size: 42px;
+  font-size: 36px;
   letter-spacing: -1.75px;
   line-height: 1;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .post-header .meta {
@@ -193,7 +198,7 @@ a:visited { color: #205caa; }
 .post-content h5,
 .post-content h6 {
   line-height: 1;
-  font-weight: 300;
+  font-weight: 600;
   margin: 40px 0 20px;
 }
 
@@ -237,7 +242,10 @@ a:visited { color: #205caa; }
   overflow:scroll;
 }
 
-.post code { padding: 1px 5px; }
+.post code {
+  padding: 1px 5px;
+  line-height: 20px;
+}
 
 .post ul,
 .post ol { margin-left: 1.35em; }
