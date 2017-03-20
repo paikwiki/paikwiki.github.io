@@ -11,7 +11,7 @@ draft: true
 ## Webtask CLI로 시작하기
 먼저 [Webtask CLI](https://webtask.io/cli) 소개 페이지의 설명에 따라 CLI를 설치합니다.
 
-```
+```shell
 # -g 플래그와 함께 wt-cli를 설치
 $ npm install wt-cli -g
 
@@ -27,7 +27,7 @@ Verification code:
 
 이메일로 전달받은 인증 코드를 입력해 줍니다. 그럼 설치와 이니셜라이징을 마쳤으니, 간단한 Webtask를 실행해 봅시다.
 
-```
+```shell
 # 파일 생성
 $ echo "module.exports = function (cb) {cb(null, 'Hello webtask');}" > hello.js
 
