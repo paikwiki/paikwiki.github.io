@@ -3,401 +3,54 @@
   <channel>
     <title>Paikblog</title>
     <description>Geek with the keys.</description>
-    <link>http://paikwik.github.io/</link>
-    <atom:link href="http://paikwik.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 26 Mar 2017 07:14:51 +0900</pubDate>
-    <lastBuildDate>Sun, 26 Mar 2017 07:14:51 +0900</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
-    
-      <item>
-        <title>Webtask</title>
-        <description>&lt;p&gt;$ wt create express.js –no-parse –no-merge&lt;/p&gt;
-</description>
-        <pubDate>Sun, 26 Mar 2017 07:14:51 +0900</pubDate>
-        <link>http://paikwik.github.io/2017/03/26/webtask/</link>
-        <guid isPermaLink="true">http://paikwik.github.io/2017/03/26/webtask/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Firebase</title>
-        <description>&lt;p&gt;https://console.firebase.google.com/&lt;/p&gt;
-
-&lt;p&gt;새 프로젝트 만들기: mydogs&lt;/p&gt;
-
-&lt;p&gt;웹 앱에 Firebase 추가&lt;/p&gt;
-
-&lt;p&gt;아래 스니펫을 복사하여 HTML 하단이나 다른 script 태그 앞에 붙여넣기 하세요.
-&lt;script src=&quot;https://www.gstatic.com/firebasejs/3.7.2/firebase.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;
-  // Initialize Firebase
-  var config = {
-    apiKey: &quot;AIzaSyBYD7EWkc5zGib9LbwjIr7GXfE0QCu_sxk&quot;,
-    authDomain: &quot;mydogs-2c7f0.firebaseapp.com&quot;,
-    databaseURL: &quot;https://mydogs-2c7f0.firebaseio.com&quot;,
-    storageBucket: &quot;mydogs-2c7f0.appspot.com&quot;,
-    messagingSenderId: &quot;1096921026947&quot;
-  };
-  firebase.initializeApp(config);
-&lt;/script&gt;&lt;/p&gt;
-
-&lt;script src=&quot;https://www.gstatic.com/firebasejs/3.7.2/firebase.js&quot;&gt;&lt;/script&gt;
-
-&lt;script&gt;
-  // Initialize Firebase
-  var config = {
-    apiKey: API_KEY,
-    authDomain: &quot;mydogs-&lt;HASH_VALUE&gt;.firebaseapp.com&quot;,
-    databaseURL: &quot;https://mydogs-&lt;HASH_VALUE&gt;.firebaseio.com&quot;,
-    storageBucket: &quot;mydogs-&lt;HASH_VALUE&gt;.appspot.com&quot;,
-    messagingSenderId: &quot;1096921026947&quot;
-  };
-  firebase.initializeApp(config);
-&lt;/script&gt;
-
-&lt;p&gt;npm install firebase –save&lt;/p&gt;
-
-&lt;p&gt;var firebase = require(“firebase”);
-또는
-import * as firebase from “firebase”;&lt;/p&gt;
-
-&lt;p&gt;// Initialize Firebase
-// TODO: Replace with your project’s customized code snippet
-var config = {
-  apiKey: “&lt;api_key&gt;&quot;,
-  authDomain: &quot;&lt;project_id&gt;.firebaseapp.com&quot;,
-  databaseURL: &quot;https://&lt;database_name&gt;.firebaseio.com&quot;,
-  storageBucket: &quot;&lt;bucket&gt;.appspot.com&quot;,
-};
-firebase.initializeApp(config);&lt;/bucket&gt;&lt;/database_name&gt;&lt;/project_id&gt;&lt;/api_key&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 26 Mar 2017 07:14:51 +0900</pubDate>
-        <link>http://paikwik.github.io/2017/03/26/firebase/</link>
-        <guid isPermaLink="true">http://paikwik.github.io/2017/03/26/firebase/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>New Macbook Air 2011</title>
-        <description>&lt;p&gt;CLI 친화적인 초기 환경 세팅법 확립을 위해 iTem2, Atom처럼 기본으로 사용하는 어플리케이션도 일단 설치
-하지 않고 Homebrew 먼저 설치하기로 했습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;homebrew-&quot;&gt;1. Homebrew 설치&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;/usr/bin/ruby -e &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Xcode 커멘드라인 도구를 다운로드 받고 설치하는 시간이 꽤 걸립니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;brewfile-&quot;&gt;2. brewfile 작성&lt;/h2&gt;
-
-&lt;h3 id=&quot;tap&quot;&gt;2.1. tap&lt;/h3&gt;
-
-&lt;p&gt;tap은 Homebrew에 또다른 다른 저장소를 사용할 수 있도록 해줍니다. tap을 설정해주면 Homebrew를 통해
-설치할 수 있는 툴이 늘어난다고 할 수 있습니다.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Brewfile(continued)&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Taps&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-
-tap &lt;span class=&quot;s1&quot;&gt;&#39;caskroom/cask&#39;&lt;/span&gt;
-tap &lt;span class=&quot;s1&quot;&gt;&#39;caskroom/fonts&#39;&lt;/span&gt;
-tap &lt;span class=&quot;s1&quot;&gt;&#39;caskroom/versions&#39;&lt;/span&gt;
-tap &lt;span class=&quot;s1&quot;&gt;&#39;homebrew/dupes&#39;&lt;/span&gt;
-tap &lt;span class=&quot;s1&quot;&gt;&#39;homebrew/php&#39;&lt;/span&gt;
-tap &lt;span class=&quot;s1&quot;&gt;&#39;homebrew/services&#39;&lt;/span&gt;
-tap &lt;span class=&quot;s1&quot;&gt;&#39;homebrew/versions&#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://caskroom.github.io/&quot;&gt;caskroom/cask&lt;/a&gt;은 Chrome, iTerm2, Atom 등 다양한 어플리
-케이션을 터미널에서 한 줄의 명령어로 설치할 수 있도록 해줍니다.
-&lt;a href=&quot;https://github.com/caskroom/homebrew-versions&quot;&gt;caskroom/versions&lt;/a&gt;을 사용하면  beta,
-nightly 버전 등 다양한 버전의 어플리케이션을 설치할 수 있습니다. &lt;a href=&quot;&quot;&gt;homebrew/versions&lt;/a&gt;는 어플리
-케이션이 아닌 커멘드라인 툴의 다양한 버전을 설치할 수 있게 해줍니다. 저는 주로 최근 stable 버전을 사용하
-는 편이지만 일단 설치해 두기로 했습니다.
-bugfix 버전을 받기 위해 &lt;a href=&quot;https://github.com/Homebrew/homebrew-dupes&quot;&gt;homebrew/dupes&lt;/a&gt;
-를 설치합니다. &lt;a href=&quot;https://github.com/Homebrew/homebrew-services&quot;&gt;homebrew/services&lt;/a&gt;는
-deamon, agent를 관리하는 &lt;a href=&quot;https://ss64.com/osx/launchctl.html&quot;&gt;luanchctl&lt;/a&gt;을 편리하게
-사용할 수 있도록 도와줍니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;2.2. 어플리케이션 설치 경로 지정&lt;/h3&gt;
-
-&lt;p&gt;다음으로 caskroom으로 설치할 어플리케이션의 설치 경로를 지정합니다. &lt;code class=&quot;highlighter-rouge&quot;&gt;Brewfile&lt;/code&gt; 적용시 경로를 지정해주
-지 않으면 어플리케이션이 &lt;code class=&quot;highlighter-rouge&quot;&gt;~/Applications&lt;/code&gt; 폴더에 설치됩니다. 기본 설치 경로인 &lt;code class=&quot;highlighter-rouge&quot;&gt;/Applications&lt;/code&gt;에
-설치할 수 있도록 변경해 줍니다.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Brewfile(continued)&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Make sure apps get installed in system Applications dir&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-
-cask_args appdir: &lt;span class=&quot;s1&quot;&gt;&#39;/Applications&#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;bash-4&quot;&gt;2.3. Bash 4&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Brewfile(continued)&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Install Bash 4&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-
-brew &lt;span class=&quot;s1&quot;&gt;&#39;bash&#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;bash 4도 설치합니다. 기본으로 설치돼 있는 쉘은 3.2 버전이네요. &lt;a href=&quot;http://wiki.bash-hackers.org&quot;&gt;bash-hackers Wiki&lt;/a&gt;
-의 &lt;a href=&quot;http://wiki.bash-hackers.org/bash4&quot;&gt;Bash 4 - a rough overview&lt;/a&gt;에서 두 버전 간의
-차이를 볼 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;binaries&quot;&gt;2.4. Binaries&lt;/h3&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Brewfile(continued)&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Install Binaries&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-
-brew &lt;span class=&quot;s1&quot;&gt;&#39;awscli&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;git&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;mackup&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;node@6&#39;&lt;/span&gt;, args: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;with-full-icu&#39;&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;&#39;with-npm&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;openssl&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;pandoc&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;wget&#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;필요한 바이너리를 설치합니다. &lt;a href=&quot;https://github.com/lra/mackup&quot;&gt;mackup&lt;/a&gt;은 맥OS 어플리케이션의
-설정을 백업해 줍니다. 예전에 atom 설정파일을 백업하기 위해 &lt;a href=&quot;https://atom.io/packages/sync-settings&quot;&gt;sync-settings&lt;/a&gt;
-를 세팅한 후 Mackup을 알고 허무했던 기억이 있는데요, Mackup은 2017년 3월 현재 Atom을 포함한 365
-종의 어플리케이션 설정을 백업할 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;programming-languages&quot;&gt;2.5. Programming languages&lt;/h3&gt;
-
-&lt;p&gt;php를 설치합니다.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Brewfile(continued)&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Development-PHP&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# @see $ brew info php71, which reads...&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# With the release of macOS Sierra the Apache module is now not built by default.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# If you want to build it on your system you have to install php with the&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# --with-httpd24 option. See  brew options php71  for more details.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-
-brew &lt;span class=&quot;s1&quot;&gt;&#39;php71&#39;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#, args: [&#39;without-apache&#39;]&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;php71-intl&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;php71-mecab&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;php71-redis&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;php71-xdebug&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;phpdocumentor&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;composer&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;phpunit&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;php-cs-fixer&#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;다음은 Ruby와 Python 그리고 각종 데이터베이스를 설치합니다.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Brewfile(continued)&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Development-Ruby&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-
-brew &lt;span class=&quot;s1&quot;&gt;&#39;ruby&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;rbenv&#39;&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Development-Python (includes pip, easy_install)&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-
-brew &lt;span class=&quot;s1&quot;&gt;&#39;python&#39;&lt;/span&gt;, args:[&lt;span class=&quot;s1&quot;&gt;&#39;with-sphinx-doc&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;python3&#39;&lt;/span&gt;, args:[&lt;span class=&quot;s1&quot;&gt;&#39;with-sphinx-doc&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;pyenv-virtualenv&#39;&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Development-Database&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# brew &#39;mariadb&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;mysql&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;sqlite&#39;&lt;/span&gt;
-brew &lt;span class=&quot;s1&quot;&gt;&#39;mongodb&#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;applications&quot;&gt;2.6. Applications&lt;/h3&gt;
-
-&lt;p&gt;이번엔 어플리케이션을 설치합니다.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Brewfile(continued)&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Apps&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-
-cask &lt;span class=&quot;s1&quot;&gt;&#39;atom&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;bestres&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;calibre&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;clipmenu-alpha&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;docker&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;dropbox&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;evernote&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;firefox&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;google-chrome&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;google-drive&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;intellij-idea&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;iterm2&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;keycastr&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;moom&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;phpstorm&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;sequel-pro&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;slack&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;spectacle&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;spotify&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;telegram&#39;&lt;/span&gt;
-cask &lt;span class=&quot;s1&quot;&gt;&#39;tunnelbear&#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;font&quot;&gt;2.7. Font&lt;/h3&gt;
-
-&lt;p&gt;폰트를 설치할 차례입니다. 폰트는 Adobe의 &lt;a href=&quot;https://github.com/adobe-fonts/source-code-pro&quot;&gt;Source Code Pro&lt;/a&gt;
-를 설치합니다.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Fonts&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-
-cask &lt;span class=&quot;s1&quot;&gt;&#39;font-source-code-pro&#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;이제 &lt;code class=&quot;highlighter-rouge&quot;&gt;Brewfile&lt;/code&gt;을 완성했습니다. Homebrew로 설치하지 못한 어플리케이션을 새로운 파일을 만들어 정리해 둡
-니다. 맥북의 초기 세팅 작업을 할 때 이 파일을 참고하여 필요한 어플리케이션을 빠짐없이 설치할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;manual-install-applications&quot;&gt;3. Manual install applications&lt;/h2&gt;
-
-&lt;p&gt;직접 설치해야 하는 어플리케이션을 기록한 파일의 이름은 &lt;code class=&quot;highlighter-rouge&quot;&gt;manual_install_applications&lt;/code&gt;입니다.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# manual_install_applications&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# List of applications that should be installed manually&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-
-Calendar 2
-iA Writer
-Pages
-PhotoScape X
-Numbers
-Keynote
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;bootstrapsh-&quot;&gt;4. Bootstrap.sh 작성하기&lt;/h2&gt;
-
-&lt;p&gt;참고문서: http://blog.appkr.kr/work-n-play/dotfiles/&lt;/p&gt;
-</description>
-        <pubDate>Sat, 25 Mar 2017 00:00:00 +0900</pubDate>
-        <link>http://paikwik.github.io/2017/03/25/new-macbook-air-2011/</link>
-        <guid isPermaLink="true">http://paikwik.github.io/2017/03/25/new-macbook-air-2011/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Test Driven Laravel</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;개요&lt;/h2&gt;
-&lt;p&gt;본 문서는 2017년 3월 23일 목요일부터 시작한 스터디에 대한 정리 문서입니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;스터디 모임: &lt;a href=&quot;http://onoffmix.com/event/94541&quot;&gt;http://onoffmix.com/event/94541&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;온라인 강좌 링크: &lt;a href=&quot;https://adamwathan.me/test-driven-laravel/&quot;&gt;https://adamwathan.me/test-driven-laravel/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;온라인 강의 수강시 참고 사항&lt;/h2&gt;
-&lt;p&gt;2017년 1월 24일, 라라벨 5.4가 정식 출시됐습니다. 이 수업은 5.3 버전에서 제작됐습니다. 가장 큰 차이는 브라우저 테스팅이 아닐까 싶습니다. 라라벨은 5.4 버전부터 &lt;a href=&quot;https://laravel.kr/docs/5.4/dusk&quot;&gt;라라벨 Dusk&lt;/a&gt;라는 브라우저 테스팅 툴을 제공합니다. 강의 초반부에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;$this-&amp;gt;visit(&#39;/concerts/&#39;.$concert-&amp;gt;id);&lt;/code&gt;이라는 테스트 코드가 등장하는데 5.4 버전에서는 &lt;code class=&quot;highlighter-rouge&quot;&gt;visit()&lt;/code&gt; 매서드가 동작하지 않습니다.&lt;/p&gt;
-
-&lt;p&gt;저는 원활한 학습을 위해 5.3 버전으로 강의를 듣기로 했습니다. 5.4로 학습하길 원하시는 분은 테스트 코드 작성시 Dusk를 활용해야 합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;테스트의 몇 가지 규칙&lt;/h2&gt;
-
-&lt;h3 id=&quot;section-3&quot;&gt;가장 핵심이 되는 기능부터 테스트하라.&lt;/h3&gt;
-&lt;p&gt;온라인 강좌에서는 티켓비스트라는 공연 정보를 제공하고 티켓을 예매할 수 있는 웹사이트를 제작해 봅니다. 이 서비스에 있어 핵심이 되는 기능은 방문자가 티켓을 구매할 수 있도록 하는 것입니다. 예전에 TDD 학습할 때 방문자의 흐름에 맞춰서 로그인부터 테스트를 하고 시작하려고 했었습니다. 그 부분을 구현하지 않고 다른 기능을 만들면 나중에 사용자 인증을 구현할 때 너무 많은 부분을 건드려야 할 것 같다는 우려 때문이었는데요, Adam Wathan는 “가장 핵심이 되는 기능”부터 테스트할 것을 강조했습니다.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 24 Mar 2017 00:00:00 +0900</pubDate>
-        <link>http://paikwik.github.io/2017/03/24/test-driven-laravel/</link>
-        <guid isPermaLink="true">http://paikwik.github.io/2017/03/24/test-driven-laravel/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Webtask.io로 express + mongoDB 이용하기</title>
-        <description>&lt;p&gt;Webtask.io로 express + mongoDB 이용하기&lt;/p&gt;
-</description>
-        <pubDate>Mon, 20 Mar 2017 21:12:00 +0900</pubDate>
-        <link>http://paikwik.github.io/2017/03/20/express-and-mongodb-with-webtaskio/</link>
-        <guid isPermaLink="true">http://paikwik.github.io/2017/03/20/express-and-mongodb-with-webtaskio/</guid>
-        
-        
-      </item>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 29 Oct 2017 21:46:21 +0900</pubDate>
+    <lastBuildDate>Sun, 29 Oct 2017 21:46:21 +0900</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>webtask.io 소개</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;들어가는 글&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;들어가는-글&quot;&gt;들어가는 글&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://webtask.io/&quot;&gt;webtask.io&lt;/a&gt;는 토큰 기반 인증 서비스(AaaS(Atuhentication as a service))를 운영하는 &lt;a href=&quot;https://auth0.com/&quot;&gt;Auth0&lt;/a&gt;의 또다른 서비스입니다. 서버리스 아키텍쳐(Serverless architacture)로 api를 만들고 배포하는 과정을 간단하게 해주는 도구입니다. webtask의 기능을 간단히 살펴보겠습니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;webtask-cli-&quot;&gt;Webtask CLI로 시작하기&lt;/h2&gt;
+&lt;h2 id=&quot;webtask-cli로-시작하기&quot;&gt;Webtask CLI로 시작하기&lt;/h2&gt;
 &lt;p&gt;먼저 &lt;a href=&quot;https://webtask.io/cli&quot;&gt;Webtask CLI&lt;/a&gt; 소개 페이지의 설명에 따라 CLI를 설치합니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# -g 플래그와 함께 wt-cli를 설치&lt;/span&gt;
-&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;npm install wt-cli -g
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# -g 플래그와 함께 wt-cli를 설치&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;npm install wt-cli &lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;# 설치가 잘 됐는지 확인&lt;/span&gt;
-&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;wt -v
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;wt &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
 4.0.6
 
 &lt;span class=&quot;c&quot;&gt;# 이니셜라이징&lt;/span&gt;
-&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;wt init YOUR_EMAIL
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;wt init YOUR_EMAIL
 Please enter the verification code we sent to YOUR_EMAIL below.
 Verification code:
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;이메일로 전달받은 인증 코드를 입력해 줍니다. 그럼 설치와 이니셜라이징을 마쳤으니, 간단한 Webtask를 실행해 봅시다.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 파일 생성&lt;/span&gt;
-&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;module.exports = function (cb) {cb(null, &#39;Hello webtask&#39;);}&quot;&lt;/span&gt; &amp;gt; hello.js
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 파일 생성&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;module.exports = function (cb) {cb(null, 'Hello webtask');}&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; hello.js
 
 &lt;span class=&quot;c&quot;&gt;# Webtask 생성&lt;/span&gt;
-&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;wt create hello.js
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;wt create hello.js
 Webtask created
 
 You can access your webtask at the following url:
 
 https://wt-HASH_VALUE.run.webtask.io/hello
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;브라우저를 이용해 터미널의 주소로 들어가보면 “Hello webtask”라는 문구를 확인할 수 있습니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;다음 프로젝트&lt;/h2&gt;
+&lt;h2 id=&quot;다음-프로젝트&quot;&gt;다음 프로젝트&lt;/h2&gt;
 </description>
         <pubDate>Mon, 20 Mar 2017 00:00:00 +0900</pubDate>
-        <link>http://paikwik.github.io/2017/03/20/webtask-io/</link>
-        <guid isPermaLink="true">http://paikwik.github.io/2017/03/20/webtask-io/</guid>
+        <link>http://localhost:4000/2017/03/20/webtask-io/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/03/20/webtask-io/</guid>
         
         
       </item>
@@ -408,7 +61,7 @@ https://wt-HASH_VALUE.run.webtask.io/hello
 
 &lt;h2 id=&quot;html&quot;&gt;html&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;RTRPRSS&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;RTRPRSS&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Content-Type&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/html; charset=utf-8&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Content-Language&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ko&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;title&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;RotaryPress, Rotary Press, RTRPRSS&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
@@ -421,12 +74,11 @@ https://wt-HASH_VALUE.run.webtask.io/hello
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cache-control&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;No-Cache&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pragma&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;No-Cache&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Last-Modified&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Sun,21 Dec 2014 01:00:00&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;css&quot;&gt;css&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;/* http://meyerweb.com/eric/tools/css/reset/
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */&lt;/span&gt;
@@ -467,34 +119,32 @@ https://wt-HASH_VALUE.run.webtask.io/hello
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;blockquote&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:before&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;blockquote&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:after&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:before&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:after&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&#39;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 	&lt;span class=&quot;nl&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 	&lt;span class=&quot;nl&quot;&gt;border-collapse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;collapse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 	&lt;span class=&quot;nl&quot;&gt;border-spacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;javascript&quot;&gt;javascript&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;it works!&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'it works!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;php&quot;&gt;php&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;// set the output content type as xml
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Content-Type: text/xml&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Content-Type: text/xml'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;// create the new XML document
 &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dom&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;DOMDocument&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;// create the root &amp;lt;response&amp;gt; element
-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$dom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;response&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$dom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'response'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$dom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;// code goes here...
@@ -504,14 +154,13 @@ https://wt-HASH_VALUE.run.webtask.io/hello
 &lt;span class=&quot;c1&quot;&gt;// output the XML string
 &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$xmlString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 16 Jun 2014 00:00:00 +0900</pubDate>
-        <link>http://paikwik.github.io/2014/06/16/test-post/</link>
-        <guid isPermaLink="true">http://paikwik.github.io/2014/06/16/test-post/</guid>
+        <link>http://localhost:4000/2014/06/16/test-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/06/16/test-post/</guid>
         
         
       </item>

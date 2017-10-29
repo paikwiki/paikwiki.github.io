@@ -7,7 +7,7 @@
     <title>webtask.io 소개</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Geek with the keys.">
-    <link rel="canonical" href="http://paikwik.github.io/2017/03/20/webtask-io/">
+    <link rel="canonical" href="http://localhost:4000/2017/03/20/webtask-io/">
 
     <!-- Font -->
     <link href='/fonts/NanumBarunGothic/nanumbarungothic.css' rel='stylesheet' type='text/css'>
@@ -58,44 +58,42 @@
   </header>
 
   <article class="post-content">
-  <h2 id="section">들어가는 글</h2>
+  <h2 id="들어가는-글">들어가는 글</h2>
 <p><a href="https://webtask.io/">webtask.io</a>는 토큰 기반 인증 서비스(AaaS(Atuhentication as a service))를 운영하는 <a href="https://auth0.com/">Auth0</a>의 또다른 서비스입니다. 서버리스 아키텍쳐(Serverless architacture)로 api를 만들고 배포하는 과정을 간단하게 해주는 도구입니다. webtask의 기능을 간단히 살펴보겠습니다.</p>
 
-<h2 id="webtask-cli-">Webtask CLI로 시작하기</h2>
+<h2 id="webtask-cli로-시작하기">Webtask CLI로 시작하기</h2>
 <p>먼저 <a href="https://webtask.io/cli">Webtask CLI</a> 소개 페이지의 설명에 따라 CLI를 설치합니다.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="c"># -g 플래그와 함께 wt-cli를 설치</span>
-<span class="gp">$ </span>npm install wt-cli -g
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># -g 플래그와 함께 wt-cli를 설치</span>
+<span class="nv">$ </span>npm install wt-cli <span class="nt">-g</span>
 
 <span class="c"># 설치가 잘 됐는지 확인</span>
-<span class="gp">$ </span>wt -v
+<span class="nv">$ </span>wt <span class="nt">-v</span>
 4.0.6
 
 <span class="c"># 이니셜라이징</span>
-<span class="gp">$ </span>wt init YOUR_EMAIL
+<span class="nv">$ </span>wt init YOUR_EMAIL
 Please enter the verification code we sent to YOUR_EMAIL below.
 Verification code:
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>이메일로 전달받은 인증 코드를 입력해 줍니다. 그럼 설치와 이니셜라이징을 마쳤으니, 간단한 Webtask를 실행해 봅시다.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="c"># 파일 생성</span>
-<span class="gp">$ </span><span class="nb">echo</span> <span class="s2">"module.exports = function (cb) {cb(null, 'Hello webtask');}"</span> &gt; hello.js
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 파일 생성</span>
+<span class="nv">$ </span><span class="nb">echo</span> <span class="s2">"module.exports = function (cb) {cb(null, 'Hello webtask');}"</span> <span class="o">&gt;</span> hello.js
 
 <span class="c"># Webtask 생성</span>
-<span class="gp">$ </span>wt create hello.js
+<span class="nv">$ </span>wt create hello.js
 Webtask created
 
 You can access your webtask at the following url:
 
 https://wt-HASH_VALUE.run.webtask.io/hello
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>브라우저를 이용해 터미널의 주소로 들어가보면 “Hello webtask”라는 문구를 확인할 수 있습니다.</p>
 
-<h2 id="section-1">다음 프로젝트</h2>
+<h2 id="다음-프로젝트">다음 프로젝트</h2>
 
   </article>
 
