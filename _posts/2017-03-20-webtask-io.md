@@ -6,7 +6,7 @@ draft: true
 ---
 
 ## 들어가는 글
-[webtask.io](https://webtask.io/)는 토큰 기반 인증 서비스(AaaS(Atuhentication as a service))를 운영하는 [Auth0]의 또다른 서비스입니다. 서버리스 아키텍쳐(Serverless architacture)로 api를 만들고 배포하는 과정을 간단하게 해주는 도구입니다. 며칠 전 지인과 함께 AWS 람다(Lambda)에 대해 이야기하던 중에 소개받은 서비스인데요, 이 글에서 webtask의 기능을 간단히 살펴보겠습니다.
+[webtask.io](https://webtask.io/)는 토큰 기반 인증 서비스(AaaS(Atuhentication as a service))를 운영하는 [Auth0](https://auth0.com/)의 또다른 서비스입니다. 서버리스 아키텍쳐(Serverless architacture)로 api를 만들고 배포하는 과정을 간단하게 해주는 도구입니다. webtask의 기능을 간단히 살펴보겠습니다.
 
 ## Webtask CLI로 시작하기
 먼저 [Webtask CLI](https://webtask.io/cli) 소개 페이지의 설명에 따라 CLI를 설치합니다.
