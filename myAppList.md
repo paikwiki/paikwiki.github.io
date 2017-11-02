@@ -6,34 +6,14 @@ permalink: /my-app-list/
 
 ## Applications
 
-### Browsers
-
-- [Google Chrome](https://www.google.com/chrome)
-- [Firefox](https://www.mozilla.org/firefox/)
-
-### Chat Clients :speech_balloon:
-
-- [Slack](https://slack.com/)
-- [Telegram](https://telegram.org/) - A messaging app with a focus on speed and security, it’s super fast, simple and free. [![Open-Source Software][OSS Icon]](https://github.com/overtake/telegram) ![Freeware][Freeware Icon]
-- [Kakaotalk](http://www.kakao.com/talk)
-
-### Clouds
-
-- [Google Drive](https://www.google.com/drive/)
-- [Dropbox](https://www.dropbox.com/)
-
-### E-Book Utilities
-
-- [Calibre](https://calibre-ebook.com/)
-
 ### Editors
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-### Graphics
+### Browsers
 
-- [PhotoScape X](http://x.photoscape.org/)
-- [Bestres](https://bestres.wojtek.im/)
+- [Google Chrome](https://www.google.com/chrome)
+- [Firefox](https://www.mozilla.org/firefox/)
 
 ### Utils for Developments
 
@@ -41,9 +21,29 @@ permalink: /my-app-list/
 - [Docker CE for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
 - [Sequel Pro](https://www.sequelpro.com/)
 
+### Chat Clients :speech_balloon:
+
+- [Slack](https://slack.com/)
+- [Telegram](https://telegram.org/) 
+- [Kakaotalk](http://www.kakao.com/talk)
+
+### Clouds
+
+- [Google Drive](https://www.google.com/drive/)
+- [Dropbox](https://www.dropbox.com/)
+
+### Graphics
+
+- [PhotoScape X](http://x.photoscape.org/)
+
+### E-Book Utilities
+
+- [Calibre](https://calibre-ebook.com/)
+
 ### Window Management
 
 - [Spectacle](https://www.spectacleapp.com/)
+- [Bestres](https://bestres.wojtek.im/)
 
 ### Miscellaneous
 
@@ -62,6 +62,6 @@ permalink: /my-app-list/
 
 - [Source Code Pro](https://adobe-fonts.github.io/source-code-pro/)
 
-## Reference
+## License
 
-- For a description of each application, refer to [iCHAIT/awesome-macOS](https://github.com/iCHAIT/awesome-macOS#contribute).
+This work is licensed under a Creative Commons Attribution 4.0 International License.
