@@ -11,3 +11,7 @@ github_username:  paikwiki
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
+
+# Plugins
+plugins:
+  - jemoji
