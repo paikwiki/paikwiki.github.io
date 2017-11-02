@@ -14,7 +14,7 @@ permalink: /my-app-list/
 ### Chat Clients :speech_balloon:
 
 - [Slack](https://slack.com/)
-- [Telegram](https://telegram.org/)
+- [Telegram](https://telegram.org/) - A messaging app with a focus on speed and security, it’s super fast, simple and free. [![Open-Source Software][OSS Icon]](https://github.com/overtake/telegram) ![Freeware][Freeware Icon]
 - [Kakaotalk](http://www.kakao.com/talk)
 
 ### Clouds
@@ -61,3 +61,7 @@ permalink: /my-app-list/
 ## Fonts
 
 - [Source Code Pro](https://adobe-fonts.github.io/source-code-pro/)
+
+## Reference
+
+- For a description of each application, refer to [iCHAIT/awesome-macOS](https://github.com/iCHAIT/awesome-macOS#contribute).
