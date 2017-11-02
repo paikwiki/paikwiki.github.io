@@ -4,51 +4,54 @@ title: My Application List for MacOS
 permalink: /my-app-list/
 ---
 
-## Browsers
+## Applications
 
-- google-chrome
-- firefox
+### Browsers
 
-## Editors
+- [Google Chrome](https://www.google.com/chrome)
+- [Firefox](https://www.mozilla.org/firefox/)
 
-- vscode
-- iA Writer
+### Chat Clients
 
-## Utils for Developments
+- [Slack](https://slack.com/)
+- [Telegram](https://telegram.org/)
+- [Kakaotalk](http://www.kakao.com/talk)
 
-- iterm2
-- docker CE for Mac
-- sequel-pro
-- tunnelbear
+### Clouds
 
-## Clouds
+- [Google Drive](https://www.google.com/drive/)
+- [Dropbox](https://www.dropbox.com/)
 
-- google-drive
-- dropbox
+### E-Book Utilities
 
-## Documents
+- [Calibre](https://calibre-ebook.com/)
 
-- PDF Expert
-- calibre
+### Editors
 
-## Images
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-- PhotoScape X
+### Graphics
+
+- [PhotoScape X](http://x.photoscape.org/)
+- [Bestres](https://bestres.wojtek.im/)
+
+### Utils for Developments
+
+- [iTerm2](https://www.iterm2.com/)
+- [Docker CE for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+- [Sequel Pro](https://www.sequelpro.com/)
+
+### Window Management
+
+- [Spectacle](https://www.spectacleapp.com/)
+
+### Miscellaneous
+
+- [Mini Calendar](https://itunes.apple.com/kr/app/mini-calendar/id1088779979?mt=12)
+- [Clipmenu](http://www.clipmenu.com/)
+- [Dr.Cleaner](https://itunes.apple.com/us/app/dr-cleaner-disk-mem-free-up/id921458519?mt=12)
+- [Tunnelbear](https://www.tunnelbear.com/)
 
 ## Fonts
 
-- source-code-pro
-
-## Messangers
-
-- slack
-- telegram
-- kakaotalk
-
-## Utils on status bar
-
-- Calendar 2
-- spectacle
-- bestres
-- clipmenu-alpha
-- Dr.Cleaner
+- [Source Code Pro](https://adobe-fonts.github.io/source-code-pro/)
