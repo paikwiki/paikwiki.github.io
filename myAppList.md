@@ -11,7 +11,7 @@ permalink: /my-app-list/
 - [Google Chrome](https://www.google.com/chrome)
 - [Firefox](https://www.mozilla.org/firefox/)
 
-### Chat Clients
+### Chat Clients :speech_balloon:
 
 - [Slack](https://slack.com/)
 - [Telegram](https://telegram.org/)
@@ -51,6 +51,12 @@ permalink: /my-app-list/
 - [Clipmenu](http://www.clipmenu.com/)
 - [Dr.Cleaner](https://itunes.apple.com/us/app/dr-cleaner-disk-mem-free-up/id921458519?mt=12)
 - [Tunnelbear](https://www.tunnelbear.com/)
+
+## Commandline Utilities
+
+- [Macup](https://github.com/lra/mackup)
+- [Tig](http://jonas.nitro.dk/tig/)
+- [Mac-Cli](https://github.com/guarinogabriel/Mac-CLI)
 
 ## Fonts
 
