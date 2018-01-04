@@ -1,3 +1,9 @@
+---
+theme: jekyll-theme-cayman
+title: Main
+permalink: /index/
+---
+
 ## List of content 
 
 * [Main](/index)
