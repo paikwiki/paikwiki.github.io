@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## List of content 
+## Navigation
 
 * [Main](/index)
 * [About](/about)
