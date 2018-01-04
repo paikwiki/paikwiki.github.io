@@ -6,8 +6,9 @@ permalink: /about/
 
 ## Navigation
 
-* [Main](/index)
-* [About](/about)
+* [Main](/index/)
+* [Works](/works/)
+* [About](/about/)
 
 ## About Me
 
