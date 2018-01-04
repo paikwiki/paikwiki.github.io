@@ -2,6 +2,6 @@
 
 Hello, GitHub Pages!
 
-## About mm
+## About me
 
 Please see my [About](/about) page.
