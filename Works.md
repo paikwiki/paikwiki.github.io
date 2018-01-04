@@ -1,7 +1,7 @@
 ---
 theme: jekyll-theme-cayman
 title: Works
-permalink: /works/
+permalink: /works
 ---
 
 ## Navigation
