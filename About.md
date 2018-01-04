@@ -1,7 +1,7 @@
 ---
 theme: jekyll-theme-cayman
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 ## Navigation
