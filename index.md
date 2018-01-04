@@ -6,8 +6,9 @@ permalink: /index/
 
 ## Navigation
 
-* [Main](/index)
-* [About](/about)
+* [Main](/index/)
+* [Works](/works/)
+* [About](/about/)
 
 ## Hello, world
 
