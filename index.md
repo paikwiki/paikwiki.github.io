@@ -1,7 +1,7 @@
 ---
 theme: jekyll-theme-cayman
 title: Main
-permalink: /index/
+permalink: /
 ---
 
 ## Navigation
