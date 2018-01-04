@@ -4,6 +4,11 @@ title: About
 permalink: /about/
 ---
 
+## List of content 
+
+* [Main](/index)
+* [About](/about)
+
 ## About Me
 
 * name: Ch. Paik
