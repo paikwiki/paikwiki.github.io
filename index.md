@@ -4,7 +4,7 @@ title: Main
 permalink: /index/
 ---
 
-## List of content 
+## Site navigation
 
 * [Main](/index)
 * [About](/about)
