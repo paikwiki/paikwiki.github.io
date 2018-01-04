@@ -12,3 +12,7 @@ permalink: /about/
 
 Hello, everyone. 
 Nice to meet you.
+
+## Main page
+
+[Go main page](/index)
