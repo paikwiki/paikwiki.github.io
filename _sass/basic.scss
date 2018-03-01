@@ -1,0 +1,87 @@
+/* CSS Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+li { list-style: none; }
+a { text-decoration: none; }
+img { border: 0; }
+
+/* HTML Elements */
+body {
+  margin: 2rem 1rem;
+}
+
+h1 {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+h2 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+}
+
+h3, h4, h5, h6 {
+  font-size: 1rem;
+}
+
+h3, h4, h5, h6 {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: underline;
+  color: royalblue;
+}
+
+a:visited {
+  color: salmon;
+}
+
+p, span, a, li {
+  vertical-align: baseline;
+}
+
+/* Custom elements with class */
+.hard-anchor,
+.hard-anchor:visited {
+  color: royalblue;
+  text-decoration: none;
+}
+
+/* Layout */
+.global-wrapper {
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  max-width: 720px;
+  .site-header {
+    margin-bottom: 1rem;
+  }
+  .site-content {
+    text-align: justify;
+  }
+  aside {
+    margin-top: 1rem;
+  }
+  footer {
+    margin: 1rem 0;
+    font-size: 0.8rem;
+  }
+  /* post list */
+  .posts-content {
+    .posts-list {
+      li {
+        font-size: 0.8rem;
+        .post-date {
+          color: dimgray;
+          font-family: Monaco, "Courier New", monospace;
+        }
+        a {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
