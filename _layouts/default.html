@@ -5,18 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ site.title }}</title>
+  <link rel="stylesheet" type="text/css" href="{{ '/css/styles.css' }}">
 </head>
 <body>
   <article class="global-wrapper">
     <header class="site-header">
-      <h1><a href="{{ '/' }}">{{ site.title }}</a></h1>
+      <h1><a href="{{ '/' }}" class="hard-anchor">{{ site.title }}</a></h1>
     </header>
     <section class="site-content">
       {{ content }}
     </section>
     <footer>
       <p class="copyright">
-        &copy; {{ site.data.author.copyright_year }}. <a href="mailto://{{ site.data.author.email }}">{{ site.data.author.name }}</a> ALL RIGHTS RESERVED.
+        &copy; {{ site.data.author.copyright_year }}. <a href="mailto://{{ site.data.author.email }}" class="hard-anchor">{{ site.data.author.name }}</a> ALL RIGHTS RESERVED.
       </p>
     </footer>
   </article>
