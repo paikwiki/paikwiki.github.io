@@ -44,6 +44,10 @@ p, span, a, li {
   vertical-align: baseline;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
 /* Custom elements with class */
 .hard-anchor,
 .hard-anchor:visited {
