@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
   font-size: 1.1rem;
 }
 
@@ -37,10 +37,11 @@ a {
 }
 
 a:visited {
-  color: salmon;
+  color: crimson;
 }
 
 p, span, a, li {
+  line-height: 1.8rem;
   vertical-align: baseline;
 }
 
@@ -61,10 +62,7 @@ p {
   padding: 0.5rem 1rem;
   max-width: 720px;
   .site-header {
-    margin-bottom: 1rem;
-  }
-  .site-content {
-    text-align: justify;
+    margin-bottom: 2rem;
   }
   aside {
     margin-top: 1rem;
