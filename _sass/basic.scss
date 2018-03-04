@@ -42,11 +42,23 @@ a:visited {
 
 p, span, a, li {
   line-height: 1.8rem;
+  letter-spacing: -0.02rem;
   vertical-align: baseline;
 }
 
 p {
   margin-bottom: 1rem;
+}
+
+blockquote {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  background-color: ghostwhite;
+  border-left: 8px solid;
+  p {
+    margin-bottom: 0;
+  }
 }
 
 /* Custom elements with class */
@@ -56,7 +68,7 @@ p {
   text-decoration: none;
 }
 .meta {
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.75rem;
   font-size: 0.9rem;
   font-style: oblique;
   color: dimgray;
