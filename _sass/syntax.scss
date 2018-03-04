@@ -1,0 +1,173 @@
+//colors
+$color_pewter_approx: #93a1a1;
+$color_daintree_approx: #002b36;
+$color_alizarin_crimson_approx: #dc322f;
+$color_pale_sky_approx: #657b83;
+$color_hot_toddy_approx: #b58900;
+$color_limeade_approx: #859900;
+$color_curious_blue_approx: #268bd2;
+$color_blue_marguerite_approx: #6c71c4;
+$color_orange_roughy_approx: #cb4b16;
+$color_jungle_green_approx: #2aa198;
+$color_cerise_approx: #d33682;
+
+.highlight {
+	color: $color_pewter_approx;
+	background-color: $color_daintree_approx;
+	table {
+		td {
+			padding: 5px;
+		}
+		pre {
+			margin: 0;
+		}
+	}
+	.w {
+		color: $color_pewter_approx;
+		background-color: $color_daintree_approx;
+	}
+	.err {
+		color: $color_daintree_approx;
+		background-color: $color_alizarin_crimson_approx;
+	}
+	.c {
+		color: $color_pale_sky_approx;
+	}
+	.cd {
+		color: $color_pale_sky_approx;
+	}
+	.cm {
+		color: $color_pale_sky_approx;
+	}
+	.c1 {
+		color: $color_pale_sky_approx;
+	}
+	.cs {
+		color: $color_pale_sky_approx;
+	}
+	.cp {
+		color: $color_hot_toddy_approx;
+	}
+	.nt {
+		color: $color_hot_toddy_approx;
+	}
+	.o {
+		color: $color_pewter_approx;
+	}
+	.ow {
+		color: $color_pewter_approx;
+	}
+	.p {
+		color: $color_pewter_approx;
+	}
+	.pi {
+		color: $color_pewter_approx;
+	}
+	.gi {
+		color: $color_limeade_approx;
+	}
+	.gd {
+		color: $color_alizarin_crimson_approx;
+	}
+	.gh {
+		color: $color_curious_blue_approx;
+		background-color: $color_daintree_approx;
+		font-weight: bold;
+	}
+	.k {
+		color: $color_blue_marguerite_approx;
+	}
+	.kn {
+		color: $color_blue_marguerite_approx;
+	}
+	.kp {
+		color: $color_blue_marguerite_approx;
+	}
+	.kr {
+		color: $color_blue_marguerite_approx;
+	}
+	.kv {
+		color: $color_blue_marguerite_approx;
+	}
+	.kc {
+		color: $color_orange_roughy_approx;
+	}
+	.kt {
+		color: $color_orange_roughy_approx;
+	}
+	.kd {
+		color: $color_orange_roughy_approx;
+	}
+	.s {
+		color: $color_limeade_approx;
+	}
+	.sb {
+		color: $color_limeade_approx;
+	}
+	.sc {
+		color: $color_limeade_approx;
+	}
+	.sd {
+		color: $color_limeade_approx;
+	}
+	.s2 {
+		color: $color_limeade_approx;
+	}
+	.sh {
+		color: $color_limeade_approx;
+	}
+	.sx {
+		color: $color_limeade_approx;
+	}
+	.s1 {
+		color: $color_limeade_approx;
+	}
+	.sr {
+		color: $color_jungle_green_approx;
+	}
+	.si {
+		color: $color_cerise_approx;
+	}
+	.se {
+		color: $color_cerise_approx;
+	}
+	.nn {
+		color: $color_hot_toddy_approx;
+	}
+	.nc {
+		color: $color_hot_toddy_approx;
+	}
+	.no {
+		color: $color_hot_toddy_approx;
+	}
+	.na {
+		color: $color_curious_blue_approx;
+	}
+	.m {
+		color: $color_limeade_approx;
+	}
+	.mf {
+		color: $color_limeade_approx;
+	}
+	.mh {
+		color: $color_limeade_approx;
+	}
+	.mi {
+		color: $color_limeade_approx;
+	}
+	.il {
+		color: $color_limeade_approx;
+	}
+	.mo {
+		color: $color_limeade_approx;
+	}
+	.mb {
+		color: $color_limeade_approx;
+	}
+	.mx {
+		color: $color_limeade_approx;
+	}
+	.ss {
+		color: $color_limeade_approx;
+	}
+}
