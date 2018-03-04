@@ -1,8 +1,8 @@
 // @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
 
 html {
-  font-size: 11pt;
+  font-size: 12pt;
 }
 @media all and (max-width: 720px){
   html {
@@ -10,11 +10,7 @@ html {
   }
 }
 h1, h2, h3, h4, h5, h6,
-span, pre, blockquote {
-  font-family: 'Noto Sans KR', 'Nanum Barun Gothic', 'Nanum Gothic', 'Malgun Gothic', 'Helvetica', sans-serif;
-  color: #333333;
-}
-p {
-  font-family: 'Noto Sans', serif;
+p, span, pre, blockquote {
+  font-family: 'Iropke Batang', 'Noto', serif;
   color: #333333;
 }
