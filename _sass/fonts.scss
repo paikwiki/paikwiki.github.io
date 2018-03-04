@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+// @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
 html {
   font-size: 11pt;
@@ -9,7 +10,11 @@ html {
   }
 }
 h1, h2, h3, h4, h5, h6,
-p, span, pre, a, blockquote {
+span, pre, blockquote {
   font-family: 'Noto Sans KR', 'Nanum Barun Gothic', 'Nanum Gothic', 'Malgun Gothic', 'Helvetica', sans-serif;
+  color: #333333;
+}
+p {
+  font-family: 'Noto Sans', serif;
   color: #333333;
 }
