@@ -4,6 +4,10 @@ layout: default
 
 <article class="post-wrapper">
   <section class="post-content">
+    <h1>{{ page.title }}</h1>
+    {% if page.date %}
+      <p class="meta">{{ page.date | date_to_string }}</p>
+    {% endif %}
     {{ content }}
   </section>
   <aside>
