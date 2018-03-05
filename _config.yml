@@ -1,2 +1,2 @@
 title: paikwiki
-permalink: none
+permalink: /:year/:month/:title
