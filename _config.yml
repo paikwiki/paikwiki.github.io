@@ -1,2 +1,6 @@
 title: paikwiki
 permalink: /:year/:month/:title
+url: http://paikwiki.github.io
+plugins:
+  - jekyll-sitemap
+
