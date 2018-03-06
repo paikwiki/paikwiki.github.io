@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+  {% if site.url == "http://paikwiki.github.io" %}
+    {% include ga.html %}
+  {% endif %}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -21,8 +24,5 @@
       </p>
     </footer>
   </article>
-  {% if site.url == "http://paikwiki.github.io" %}
-    {% include ga.html %}
-  {% endif %}
 </body>
 </html>
