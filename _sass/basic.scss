@@ -1,3 +1,6 @@
+$linkColor: royalblue;
+$linkColorVisited: crimson;
+
 /* CSS Reset */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 li { list-style: none; }
@@ -33,11 +36,11 @@ h3, h4, h5, h6 {
 
 a {
   text-decoration: underline;
-  color: royalblue;
+  color: $linkColor;
 }
 
 a:visited {
-  color: crimson;
+  color: $linkColorVisited;
 }
 
 p, span, a, li {
@@ -57,14 +60,28 @@ blockquote {
   background-color: ghostwhite;
   border-left: 8px solid;
   p {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+pre {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  background-color: ghostwhite;
+  code {
+    white-space: normal;
+    word-break: keep-all;
   }
 }
 
 /* Custom elements with class */
 .hard-anchor,
 .hard-anchor:visited {
-  color: royalblue;
+  color: $linkColor;
   text-decoration: none;
 }
 .meta {
@@ -101,6 +118,18 @@ blockquote {
         a {
           font-size: 1rem;
         }
+      }
+    }
+  }
+  /* post */
+  /* - Aladin TTB */
+  .ttb-review {
+    margin-bottom: 2rem;
+    text-align: center;
+    a {
+      color: $linkColor;
+      img {
+        max-width: 200px;
       }
     }
   }
