@@ -8,6 +8,9 @@ layout: default
     {% if page.date %}
       <p class="meta">{{ page.date | date_to_string }}</p>
     {% endif %}
+    {% if page.aItemId and page.aItemImageUrl %}
+      {% include aBookItem.html %}
+    {% endif %}    
     {{ content }}
   </section>
   <aside>
