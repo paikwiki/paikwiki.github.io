@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 감성디자인
+title: 독서 - 감성디자인
 date: 2018-03-11
 aItemId: 25344561
 aItemImageUrl: http://image.aladin.co.kr/product/2534/45/cover/8996349852_1.jpg

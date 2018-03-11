@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 독서-인간다운 Git
+title: 독서 - 인간다운 Git
 date: 2018-03-07
 aItemId: 131897974
 aItemImageUrl: http://image.aladin.co.kr/product/13189/79/cover/k392532498_1.jpg
