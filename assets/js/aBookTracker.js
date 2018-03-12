@@ -4,7 +4,7 @@ function clickABookLink(event) {
   ga('send', 'event', {
     eventCategory: 'Aladin TTB2',
     eventAction: 'click',
-    eventLabel: event.target.href
+    eventLabel: document.title
   });
 }
 
