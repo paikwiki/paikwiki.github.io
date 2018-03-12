@@ -17,12 +17,12 @@ function clickABookLink(event) {
   ga('send', 'event', {
     eventCategory: 'Aladin TTB2',
     eventAction: 'click',
-    eventLabel: document.title
+    eventLabel: event.target.href
   });
 }
 ```
 
-알라딘으로 이동하는 링크에 `eventLabel`을 위한 커스텀 데이터를 따로 지정해줄까 한참을 고민하다가 굳이 그럴 필요가 없겠다는 생각이 들어서, 이벤트가 발생한 위치의 `title`을 가져오기로 했다.
+알라딘으로 이동하는 링크에 `eventLabel`을 위한 커스텀 데이터를 따로 지정해줄까 한참을 고민하다가 일단 시간을 너무 많이 쏟은 것 같아 우선 url을 찍도록 해뒀다.
 
 이제 알라딘으로 이동하는 링크에 `clickABookLink` 함수를 붙여주는 작업을 해야한다. 여기서 한 가지 문제가 있었다. 독서 후기 포스트만 책 표지 이미지를 노출하는 템플릿을 따로 제작해두긴 했지만 본문에도 알라딘으로 가는 링크를 포함하는 경우가 있어서, 템플릿에 간단히 `clickABookLink`를 붙일 수 없는 상황이다. 일단은 페이지의 모든 외부링크를 가져와 `ttbkey`라는 텍스트를 포함하는 링크를 찾아 `clickABookLink`를 적용하기로 했다. 별로 좋은 방법이 아닌 거 같긴 한데, 앞으로 천천히 고쳐가며 쓰면 되니까.
 
