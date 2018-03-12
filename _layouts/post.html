@@ -17,3 +17,7 @@ layout: default
     <p>« <a href="{{ '/' | prepend:site.baseurl }}" class="hard-anchor">Back</a></p>
   </aside>
 </article>
+
+{% if page.aItemId and page.aItemImageUrl %}
+  <script type="text/javascript" src="{{ '/assets/js/aBookTracker.js' }}"></script>
+{% endif %}
