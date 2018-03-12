@@ -10,7 +10,7 @@ function clickABookLink(event) {
 
 function addABookTracker(link) {
   var url = link.getAttribute('href');
-  if ( url.search('ttbkey') ) {
+  if ( url.search('ttbkey') > 0 ) {
     link.addEventListener('click', function(e) {
       clickABookLink(e);
     });
