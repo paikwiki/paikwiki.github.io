@@ -18,6 +18,6 @@ layout: default
   </aside>
 </article>
 
-{% if page.aItemId and page.aItemImageUrl %}
+{% if site.url == "http://paikwiki.github.io" and page.aItemId and page.aItemImageUrl %}
   <script type="text/javascript" src="{{ '/assets/js/aBookTracker.js' }}"></script>
 {% endif %}
