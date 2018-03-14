@@ -3,7 +3,6 @@ $linkColorVisited: crimson;
 
 /* CSS Reset */
 * { margin: 0; padding: 0; box-sizing: border-box; }
-li { list-style: none; }
 a { text-decoration: none; }
 img { border: 0; }
 
@@ -32,6 +31,10 @@ h3, h4, h5, h6 {
   font-weight: normal;
   letter-spacing: -0.01rem;  
   text-decoration: underline;
+}
+
+li {
+  margin-left: 1rem;
 }
 
 a {
