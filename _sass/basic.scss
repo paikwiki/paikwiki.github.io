@@ -114,6 +114,8 @@ hr {
   .posts-content {
     .posts-list {
       li {
+        margin-left: 0;
+        list-style: none;
         font-size: 0.8rem;
         .post-date {
           color: dimgray;
