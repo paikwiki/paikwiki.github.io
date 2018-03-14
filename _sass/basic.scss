@@ -33,8 +33,11 @@ h3, h4, h5, h6 {
   text-decoration: underline;
 }
 
-li {
-  margin-left: 1rem;
+ul {
+  margin-bottom: 1rem;
+  li {
+    margin-left: 1rem;
+  }
 }
 
 a {
