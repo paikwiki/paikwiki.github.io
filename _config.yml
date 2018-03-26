@@ -1,4 +1,5 @@
 title: paikwiki
+description: Paikwiki's blog
 permalink: /:year/:month/:title
 lang: ko_KR
 twitter:
