@@ -2,4 +2,4 @@ title: paikwiki
 permalink: /:year/:month/:title
 plugins:
   - jekyll-sitemap
-
+  - jekyll-seo-tag
