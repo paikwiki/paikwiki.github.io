@@ -1,5 +1,13 @@
 title: paikwiki
 permalink: /:year/:month/:title
+lang: ko_KR
+twitter:
+  username: ch_Paik
+social:
+  name: Changhyun Paik
+  links:
+    - https://twitter.com/ch_Paik
+    - https://github.com/paikwiki
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
