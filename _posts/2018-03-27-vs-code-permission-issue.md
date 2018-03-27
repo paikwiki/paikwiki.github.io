@@ -8,7 +8,7 @@ date: 2018-03-27
 
 > Could not create temporary directory: 권한 거부됨
 
-이대로 계속 두는 게 좋지 않을 것 같아 구글링을 시작했다. 에러 메시지에서 밝힌 것처럼 권한 설정의 문제일 거로 생각하고 검색을 했다. 여러 웹페이지 중 "[I am unable to update to the latest version of Atom on macOS. How do I fix this?](https://discuss.atom.io/t/i-am-unable-to-update-to-the-latest-version-of-atom-on-macos-how-do-i-fix-this/40054)"라는 글에서 힌트를 찾았다. 아톰(Atom의) 오류에 대한 질문이지만 비슷한 상황이었다. 답변에는 세 가지 파일에 대한 권한을 확인하라고 했다.
+이대로 계속 두는 게 좋지 않을 것 같아 구글링을 시작했다. 에러 메시지에서 밝힌 것처럼 권한 설정의 문제일 거로 생각하고 검색을 했다. 여러 웹페이지 중 "[I am unable to update to the latest version of Atom on macOS. How do I fix this?](https://discuss.atom.io/t/i-am-unable-to-update-to-the-latest-version-of-atom-on-macos-how-do-i-fix-this/40054)"라는 글에서 힌트를 찾았다. 아톰(Atom)의 오류에 대한 질문이지만 비슷한 상황이었다. 답변에는 세 가지 파일에 대한 권한을 확인하라고 했다.
 
 - `/Applications/Atom.app/`
 - `~/Library/Caches/com.github.atom.ShipIt`
