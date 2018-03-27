@@ -24,7 +24,7 @@ root
 권한을 변경했다.
 
 ```sh
-sudo chown -R chPaik ~/Library/Caches/com.microsoft.VSCode.ShipIt/
+$ sudo chown -R chPaik ~/Library/Caches/com.microsoft.VSCode.ShipIt/
 ```
 
 이렇게 한 후, 앱을 다시 시작했다. 앱이 열리자마자 깃에 대한 제어 설정 확인창이 떴다. 업데이트 확인을 통해 `1.21.1` 버전으로 업데이트도 완료했다.
