@@ -14,7 +14,7 @@ date: 2018-03-27
 - `~/Library/Caches/com.github.atom.ShipIt`
 - `~/Library/Application Support/com.github.atom.ShipIt`
 
-첫 번째는 어플리케이션, 두 번째는 아톰 업데이트 관련 캐시, 마지막으로 아톰 업데이트 지원용 리소스였다. 나의 경우에는 캐시 파일은 없었고, 업데이트를 위한 리소스의 접근 권한이 `root`로 설정돼 있었다.
+첫 번째는 어플리케이션, 두 번째는 아톰 업데이트 관련 캐시, 마지막은 아톰 업데이트 지원용 리소스였다. 나의 경우에는 캐시 파일은 없었고, 업데이트를 위한 리소스의 접근 권한이 `root`로 설정돼 있었다.
 
 ```sh
 $ stat -f "%Su" ~/Library/Caches/com.microsoft.VSCode.ShipIt/
