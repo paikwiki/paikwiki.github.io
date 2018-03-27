@@ -6,7 +6,7 @@ date: 2018-03-27
 
 며칠 전부터 비주얼 스튜디오 코드(Visual Studio Code)의 "소스 제어", 즉 깃(Git)과 관련한 기능이 이상하게 작동했다. 터미널에서 커밋을 한 후, 에디터로 돌아와보면 이미 스테이징 처리한 파일이 여전히 수정된(`modified`) 파일로 남아있고, 새로고침을 아무리 해도 변화가 없었다. 귀찮아서 며칠 그냥 뒀는데, 오늘 VS코드 업데이트에서도 에러가 발생하는 것을 발견했다.
 
-> Could not create temporary directory: 권한이 거부됨
+> Could not create temporary directory: 권한 거부됨
 
 이대로 계속 두는 게 좋지 않을 것 같아 구글링을 시작했다. 에러 메시지에서 밝힌 것처럼 권한 설정의 문제일 거라 생각하고 검색을 했다. 여러 웹페이지 중 "[I am unable to update to the latest version of Atom on macOS. How do I fix this?](https://discuss.atom.io/t/i-am-unable-to-update-to-the-latest-version-of-atom-on-macos-how-do-i-fix-this/40054)"라는 글에서 힌트를 찾았다. 아톰(Atom의) 오류에 대한 질문이지만 비슷한 상황이었다. 답변에는 세 가지 파일에 대한 권한을 확인하라고 했다.
 
