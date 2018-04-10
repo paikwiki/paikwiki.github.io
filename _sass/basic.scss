@@ -1,5 +1,6 @@
 $linkColor: royalblue;
-$linkColorVisited: crimson;
+$linkColorVisited: darkorchid;
+$metaColor: dimgray;
 
 /* CSS Reset */
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -95,7 +96,7 @@ hr {
   margin-bottom: 1.75rem;
   font-size: 0.9rem;
   font-style: oblique;
-  color: dimgray;
+  color: $metaColor;
 }
 
 /* Layout */
@@ -113,15 +114,16 @@ hr {
     margin: 1rem 0;
     font-size: 0.8rem;
   }
-  /* post list */
-  .posts-content {
+  /* post */
+  .post-content {
+    /* post list */
     .posts-list {
       li {
         margin-left: 0;
         list-style: none;
         font-size: 0.8rem;
         .post-date {
-          color: dimgray;
+          color: $metaColor;
           font-family: Monaco, "Courier New", monospace;
         }
         a {
@@ -129,8 +131,31 @@ hr {
         }
       }
     }
+    
+    /* each post */
+    h2 {
+      margin-top: 2.5em;
+      margin-bottom: 1em;
+    }
+    h3 {
+      margin-top: 2em;
+      margin-bottom: 1em;
+    }
+    img {
+      display: block;
+      // margin: 0 auto;
+      margin-top: 2em;
+      margin-bottom: 1em;
+      max-width: 80%;
+      box-shadow: 0px 2px 8px dimgray;
+    }
+    @media all and (max-width: 720px){
+      img {
+        margin-left: 1%;
+        max-width: 94%;
+      }
+    }    
   }
-  /* post */
   /* - Aladin TTB */
   .ttb-review {
     margin-bottom: 2rem;
