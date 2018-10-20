@@ -116,9 +116,8 @@ hr {
     margin: 1rem 0;
     font-size: 0.8rem;
   }
-  /* post */
-  .post-content {
-    /* post list */
+  /* post list */
+  .posts-content {
     .posts-list {
       li {
         margin-left: 0;
@@ -133,6 +132,9 @@ hr {
         }
       }
     }
+  }
+  /* post */
+  .post-content {
     
     /* each post */
     h2 {
