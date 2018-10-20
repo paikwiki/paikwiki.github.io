@@ -123,9 +123,13 @@ hr {
         margin-left: 0;
         list-style: none;
         font-size: 0.8rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
         .post-date {
           color: $metaColor;
           font-family: Monaco, "Courier New", monospace;
+          word-spacing: -0.2em;
         }
         a {
           font-size: 1rem;
