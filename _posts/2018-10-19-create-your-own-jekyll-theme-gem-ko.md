@@ -30,7 +30,7 @@ date: 2018-10-19
 ![실험실에서 담배를 피우는 지킬 박사](/assets/images/2018/dr-jekyll-smoking-in-the-laboratory.jpg)
 <sub>_PS. 실험실에서 담배를 피우면 안 되겠죠..._</sub>
 
-##  젬 기반의 테마 만들기
+## 젬 기반의 테마 만들기
 
 새로운 젬 기반의 지킬 테마 제작을 위한 기본 뼈대(scaffold)를 생성하려면, 아래의 명령어를 실행하세요.
 
@@ -52,7 +52,7 @@ date: 2018-10-19
 - `_layouts`은 기본 포스트 레이아웃과 같은 메인 템플릿 파일들을 보관하기 위한 폴더입니다.
 - `assets` 폴더는 여러분의 젬에 포함시키고 싶은 이미지, 그래픽 등을 담는 폴더입니다. Sass 파일도 이곳에서 임포트(import)합니다. 예를 들어,이 폴더 안에는 `main.scss`를 담은 `css`폴더가 있습니다. 이 파일에 아래처럼 작성해보세요:
 
-````ruby
+````scss
 ---
 ---
 @import "jekyll-theme-awesome";
@@ -65,8 +65,8 @@ sass:
     sass_dir: _sass
 ````
 
-- `Gemfile`은 `.gemspec` 파일을 가리키며, 번들러(Bundler)가 여러분의 젬들을 관리하는 파일입니다.
-- `README.md`은 젬에 대한 설치와 설정 방법을 포함한 테마를 위한 문서 파일입니다.
+- `Gemfile`은 `.gemspec` 파일을 가리키며, 번들러(Bundler)가 여러분의 젬들을 관리하는 파일입니다.
+- `README.md`는 젬에 대한 설치와 설정 방법을 포함한 테마를 위한 문서 파일입니다.
 - `LICENSE.txt`에는 여러분의 테마가 어떤 라이선스를 따르는지에 대한 선언이 들어 있습니다. 기본적으로 [MIT 라이선스](https://opensource.org/licenses/MIT)가 설정됩니다.
 
 ## 테마 시작하기
@@ -143,10 +143,8 @@ RubyGems.org 자격 증명을 사용해서 로그인하라는 메시지가 나�
 
 다음 버전을 만들어, 젬에 적용하고 싶다면 다음 단계를 따르세요:
 
-- `.gemspec` 파일에, `spec.version` 설정을 변경하고 싶은 버전 번호로 변경합니다. 여러분의 버전 번호를 어떻게 해야할 지 알고 싶다면 RubyGems.org에서 [유의적 버전](https://guides.rubygems.org/patterns/#semantic-versioning) 문서를 살펴보세요.
-
+- `.gemspec` 파일에 `spec.version` 설정을 변경하고 싶은 버전 번호로 변경합니다. 여러분의 버전 번호를 어떻게 해야할 지 알고 싶다면 RubyGems.org에서 [유의적 버전](https://guides.rubygems.org/patterns/#semantic-versioning) 문서를 살펴보세요.
 - 그리고 나서 `gem build jekyll-theme-awesome.gemspec` 명령을 실행하여 다음 버전의 젬을 다시 빌드합니다.
-
 - 새로운 젬 버전을 업로드하기 위해, 새로운 버전 번호와 함께 앞서 실행했던 명령을 다시 실행합니다:
 
 &nbsp;&nbsp;&nbsp;&nbsp;`gem push my-theme-0.1.1.gem`
