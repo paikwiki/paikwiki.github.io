@@ -4,7 +4,7 @@ title: 번역 - 해커처럼 블로깅하기
 date: 2018-10-26
 ---
 
-> 이 글은 [톰 프레스턴 베르너(Tom Preston-Werner)](http://tom.preston-werner.com)가 [지킬을 공개](https://jekyllrb.com/docs/history/#v0-1-0)한 후, 작성한 블로그 포스트, "[Blogging Like a Hacker](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html)"를 원저작자의 허락을 얻어 번역한 글입니다.
+> 이 글은 [톰 프레스턴 베르너(Tom Preston-Werner)](http://tom.preston-werner.com)가 [지킬을 공개](https://jekyllrb.com/docs/history/#v0-1-0)한 후, 작성한 블로그 포스트, "[Blogging Like a Hacker](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html)"를 원저자의 허락을 얻어 번역한 글입니다.
 >
 > 톰 프레스턴 베르너는 약 10년 전인 2008년 11월 17일에 이 글을 포스팅했습니다. 현재 4.0 버전 릴리즈를 기다리고 있는 지킬의 코드와 사용법은 1.0 버전을 배포했던 이 포스트의 작성 당시와 비교했을 때, 많은 부분이 바뀌었습니다. 따라서 본문에는 사용법이 다르거나 더는 지원하지 않는 기능 및 코드가 포함되어 있습니다. 예를 들어, 현재 3.x 버전의 지킬은 [Textile을 지원하지 않으며](https://blog.github.com/2016-02-01-github-pages-now-faster-and-simpler-with-jekyll-3-0/), 사이트를 생성할 때 `jekyll build`라는 명령어를 사용합니다. 하지만 이 글은 지킬 튜토리얼이 아니기 때문에 굳이 코드를 수정할 필요는 없다고 판단했습니다. 지킬의 창시자가 지킬의 제작 동기와 핵심 컨셉을 소개하는 이 포스트는 오랜 시간이 지났음에도 불구하고 충분히 읽어볼 가치가 있습니다.
 
