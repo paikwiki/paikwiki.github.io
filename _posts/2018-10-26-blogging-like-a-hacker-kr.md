@@ -22,7 +22,7 @@ date: 2018-10-26
 
 [On Sunday, October 19th, I sat down in my San Francisco apartment with a glass of apple cider and a clear mind. After a period of reflection, I had an idea. While I’m not specifically trained as an author of prose, I am trained as an author of code. What would happen if I approached blogging from a software development perspective? What would that look like?]: #
 
-10월 19일 일요일, 저는 차분한 마음으로 사과 맛 탄산음료 한 컵을 들고 샌프란시스코의 제 아파트에 앉아 있었습니다. 숙고의 끝에, 아이디어가 떠올랐습니다. 저는 산문의 저자로서뿐만 아니라 코드의 작성자로서도 스스로 훈련해왔습니다. 제가 소프트웨어 개발자의 관점에서 블로깅을 본다면 어떤 일이 벌어질까요? 그건 어떤 형태를 띠게 될까요?
+10월 19일 일요일, 저는 차분한 마음으로 사과 맛 탄산음료 한 컵을 들고 샌프란시스코의 제 아파트에 앉아 있었습니다. 숙고의 끝에, 아이디어가 떠올랐습니다. 저는 산문의 저자로서뿐만 아니라 코드의 저자로서도 스스로 훈련해왔습니다. 제가 소프트웨어 개발자의 관점에서 블로깅을 본다면 어떤 일이 벌어질까요? 그건 어떤 형태를 띠게 될까요?
 
 [First, all my writing would be stored in a Git repository. This would ensure that I could try out different ideas and explore a variety of posts all from the comfort of my preferred editor and the command line. I’d be able to publish a post via a simple deploy script or post-commit hook. Complexity would be kept to an absolute minimum, so a static site would be preferable to a dynamic site that required ongoing maintenance. My blog would need to be easily customizable; coming from a graphic design background means I’ll always be tweaking the site’s appearance and layout.]: #
 
@@ -42,7 +42,7 @@ date: 2018-10-26
 
 [You’ll also notice Liquid templating code in these files. Liquid is a simple, extensible templating language that makes it easy to embed data in your templates. For my homepage I wanted to have a list of all my blog posts. Jekyll hands me a Hash containing various data about my site. A reverse chronological list of all my blog posts can be found in site.posts. Each post, in turn, contains various fields such as title and date.]: #
 
-또한 여러분은 이 파일에서 리퀴드 템플릿 코드를 볼 수 있습니다. [리퀴드](https://shopify.github.io/liquid/)는 간단하고, 확장 가능한 템플릿 언어로, 손쉽게 여러분의 템플릿에 데이터를 삽입할 수 있게 해줍니다. 저는 메인페이지에 모든 포스트의 목록을 출력하고 싶었습니다. 지킬은 저는 사이트에 대한 다양한 데이터를 담은 해시(Hash)를 건네줍니다. `site.posts`에서 내 모든 블로그 포스트를 최신순으로 정리한 목록을 볼 수 있습니다. 각 포스트는 순서대로 `title`, `date`와 같은 다양한 필드값을 포함합니다.
+또한 여러분은 이 파일에서 리퀴드 템플릿 코드를 볼 수 있습니다. [리퀴드](https://shopify.github.io/liquid/)는 간단하고, 확장 가능한 템플릿 언어로, 손쉽게 여러분의 템플릿에 데이터를 삽입할 수 있게 해줍니다. 저는 메인페이지에 모든 포스트의 목록을 출력하고 싶었습니다. 지킬은 사이트에 대한 다양한 데이터를 담은 해시(Hash)를 건네줍니다. `site.posts`에서 내 모든 블로그 포스트를 최신순으로 정리한 목록을 볼 수 있습니다. 각 포스트는 순서대로 `title`, `date`와 같은 다양한 필드값을 포함합니다.
 
 [Jekyll gets the list of blog posts by parsing the files in the _posts directory. Each post’s filename contains the publishing date and slug (what shows up in the URL) that the final HTML file should have. Open up the file corresponding to this blog post: 2008-11-17-blogging-like-a-hacker.textile. GitHub renders textile files by default, so to better understand the file, click on the raw view to see the original file. Here I’ve specified the post layout. If you look at that file you’ll see an example of a nested layout. Layouts can contain other layouts allowing you a great deal of flexibility in how pages are assembled. In my case I use a nested layout in order to show related posts for each blog entry. The YAML also specifies the post’s title which is then embedded in the post’s body via Liquid.]: #
 
