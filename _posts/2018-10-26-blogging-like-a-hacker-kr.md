@@ -54,7 +54,7 @@ date: 2018-10-26
 
 [Files that do not reside in directories prefixed with an underscore are mirrored into a corresponding directory structure in the generated site. If a file does not have a YAML preface, it is not run through the Liquid interpreter. Binary files are copied over unmodified.]: #
 
-밑줄(underscore)을 앞에 붙인 디렉토리 외부의 파일들은 해당 디렉토리 구조대로 최종 생성된 사이트에 복제됩니다. 파일에 YAML 서문(프런트매터)가 없다면, 리퀴드 인터프리터를 통해 실행되지 않습니다. 바이너리 파일은 수정하지 않고 그대로 복제합니다.
+밑줄(underscore)을 앞에 붙인 디렉토리 외부의 파일들은 해당 디렉토리 구조대로 최종 생성된 사이트에 복제됩니다. 파일에 YAML 서문(프런트매터)이 없다면, 리퀴드 인터프리터를 통해 실행되지 않습니다. 바이너리 파일은 수정하지 않고 그대로 복제합니다.
 
 [In order to convert your raw site into the finished version, you simply run:]: #
 
@@ -71,4 +71,4 @@ $ jekyll /path/to/raw/site
 
 [I’ve been living with Jekyll for just over a month now. I love it. Driving the development of Jekyll based on the needs of my blog has been very rewarding. I can edit my posts in TextMate, giving me automatic and competent spell checking. I have immediate and first class access to the CSS and page templates. Everything is backed up on GitHub. I feel a lightness now when I’m writing a post. The system is simple enough that I can keep the entire conversion process in my head. The distance from my brain to my blog has shrunk, and, in the end, I think that will make me a better author.]: #
 
-재가 지킬과 함께 한 시간은 한 달에 불과합니다. 매우 만족합니다. 제 블로그에 사용하기 위해서 지킬을 개발한 과정은 매우 의미 있는 시간이었습니다. 저는 자동화를 지원하는 뛰어난 맞춤법 검사 기능을 가진 [텍스트메이트(TextMate)](https://macromates.com/)로 포스트를 작성할 수 있습니다. 또한 CSS와 페이지 템플릿에 바로 접근할 수 있습니다. 이 모든 것을 깃허브에 백업합니다. 이제 저는 홀가분한 기분으로 포스트를 작성합니다. 시스템은 제 머릿속에서 모든 변환 과정을 기억할 수 있을 만큼 간단합니다. 제 뇌에서 블로그까지의 거리는 매우 좁혀졌으며, 이로써 저는 더 나은 저자가 될 수 있을 것입니다.
+제가 지킬과 함께 한 시간은 한 달에 불과합니다. 매우 만족합니다. 제 블로그에 사용하기 위해서 지킬을 개발한 과정은 매우 의미 있는 시간이었습니다. 저는 자동화를 지원하는 뛰어난 맞춤법 검사 기능을 가진 [텍스트메이트(TextMate)](https://macromates.com/)로 포스트를 작성할 수 있습니다. 또한 CSS와 페이지 템플릿에 바로 접근할 수 있습니다. 이 모든 것을 깃허브에 백업합니다. 이제 저는 홀가분한 기분으로 포스트를 작성합니다. 시스템은 제 머릿속에서 모든 변환 과정을 기억할 수 있을 만큼 간단합니다. 제 뇌에서 블로그까지의 거리는 매우 좁혀졌으며, 이로써 저는 더 나은 저자가 될 수 있을 것입니다.
