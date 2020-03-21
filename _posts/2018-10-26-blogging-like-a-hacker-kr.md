@@ -2,6 +2,7 @@
 layout: post
 title: 번역 - 해커처럼 블로깅하기
 date: 2018-10-26
+tags: [translation, jekyll, tom-preston-werner]
 ---
 
 > 이 글은 [톰 프레스턴 베르너(Tom Preston-Werner)](http://tom.preston-werner.com)가 [지킬을 공개](https://jekyllrb.com/docs/history/#v0-1-0)한 후, 작성한 블로그 포스트, "[Blogging Like a Hacker](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html)"를 원저자의 허락을 얻어 번역한 글입니다.

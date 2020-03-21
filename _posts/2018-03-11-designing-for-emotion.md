@@ -4,6 +4,7 @@ title: 독서 - 감성 디자인
 date: 2018-03-11
 aItemId: 25344561
 aItemImageUrl: http://image.aladin.co.kr/product/2534/45/cover/8996349852_1.jpg
+tags: [book, review, ux, design]
 ---
 애런 월터(Aarron Walter)의  『[감성 디자인](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=25344561&ttbkey=ttbvdoob0108002&COPYPaper=1)』은 마치 공산품처럼 획일적으로 적용되는 UX/UI 디자인을 벗어나, 웹사이트나 어플리케이션이 사용자에게 하나의 인격체처럼 다가갈 수 있는 방법에 대해 이야기한다.
 

@@ -4,6 +4,7 @@ title: 독서 - 인간다운 Git
 date: 2018-03-07
 aItemId: 131897974
 aItemImageUrl: http://image.aladin.co.kr/product/13189/79/cover/k392532498_1.jpg
+tags: [book, review, git]
 ---
 
 『[인간다운 Git](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=131897974&ttbkey=ttbvdoob0108002&COPYPaper=1)』은 잘못된 번역으로 오해받을만한 제목이다. "인간(사용자)을 위한 Git"이 바른 번역일텐데, 왜 "인간다운 Git"일까? 그 이유는 번역서의 출판사인 웹액츄얼리의 [신간 공유 이벤트](https://www.facebook.com/webactually/photos/a.10154919960617396.1073741838.297046352395/10154919960627396/?type=3&theater "웹액츄얼리 페이스북 이벤트 링크")에서 홍보 문구이자, 책의 서문에 저자가 쓴 한 문장에서 유추해볼 수 있다.

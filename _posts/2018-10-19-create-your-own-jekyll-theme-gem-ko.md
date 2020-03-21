@@ -2,6 +2,7 @@
 layout: post
 title: 번역 - 나만의 지킬 테마 만들기
 date: 2018-10-19
+tags: [translation, ryan-brown, jekyll, jekyll-theme]
 ---
 
 > 이 글은 [Ryan Brown](https://ryandevelops.com/)의 블로그 포스트, "[Create your own Jekyll theme gem](https://ryandevelops.com/collection/2018-10-07-create-your-own-jekyll-theme-gem)"을 원저자의 허락을 얻어 번역한 글입니다. 이 글은 지킬 테마를 만들어 배포하는 방법에 대해 쉽게 소개하고 있는 데다가, 직접 테마 젬을 만들어 보는 과정을 통해 여러 유익한 경험을 얻을 수 있다는 원문 작성자의 의견에 공감해 번역했습니다. 기초 튜토리얼인 만큼 원문 작성자의 의도를 해치지 않는 범위 내에서 읽기 쉽게 문장을 다듬었습니다. 원문에서는 "여러분 자신의 지킬 테마(your own Jekyll theme)"라고 표현하지만 번역글에서는 "여러분의 테마" 또는 "나만의 테마"로 문맥에 따라 선택적으로 번역했습니다.

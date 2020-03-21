@@ -2,6 +2,7 @@
 layout: post
 title: 젬 기반의 지킬 테마 적용하기
 date: 2018-04-10
+tags: [jekyll, jekyll-theme, github-pages]
 ---
 
 ## 들어가며
