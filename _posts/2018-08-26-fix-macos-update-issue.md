@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MacOS 업그레이드할 때 OSinstll.mpkg 오류 해결하기
+title: MacOS 업그레이드할 때 OSinstall.mpkg 오류 해결하기
 date: 2018-08-26
 tags: [troubleshooting]
 ---
