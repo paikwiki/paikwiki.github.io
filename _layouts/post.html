@@ -10,8 +10,20 @@ layout: default
     {% endif %}
     {% if page.aItemId and page.aItemImageUrl %}
       {% include aBookItem.html %}
-    {% endif %}    
+    {% endif %}
     {{ content }}
+    {% if page.tags %}
+      <p class="meta">
+        {% if page.tags.size > 1 %}
+        TAGS:
+        {% else %}
+        TAG:
+        {% endif %}
+        {% for tag in page.tags %}
+          <a href="/tags.html#{{tag}}">{{tag}}</a>
+        {% endfor %}
+      </p>
+    {% endif %}
   </section>
   <aside>
     <p>« <a href="{{ '/' | prepend:site.baseurl }}" class="hard-anchor">Back</a></p>
