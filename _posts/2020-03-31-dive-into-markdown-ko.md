@@ -84,7 +84,7 @@ tags: [translation, markdown, john-gruber]
 
 상식적으로 보면, 포스트는 HTML 코드 조각입니다. 모든 HTML 문서가 아니고, (형식을 갖춘 텍스트인) HTML 코드 조각일 뿐입니다. 블로그 소프트웨어가 전체 HTML(그리고/또는 XML) 문서를 작성합니다. 여러분의 블로그 템플릿에는 ― `<html>`, `<head>`, `<body>` 등 ― 문서 구조와 관련한 모든 태그가 있으며, 포스트를 출력할 공간(slots)도 있습니다. 여러분이 웹페이지를 출판하면, 블로그 소프트웨어는 HTML 코드 조각인 포스트를 HTML 템플릿에 결합합니다.
 
-2002년 8월부터 작년 8월경(역주: 2003년 8월경)까지, [Daring Fireball](https://daringfireball.net/)을 오픈한 첫해동안, 저는 이 "HTML 코드 조각으로써의 포스트(post-as-snippet-of-HTML)" 개념을 사들여서(buy) 매우 기뻤습니다. 저는 어떤 대안도 생각해본 적이 없었습니다. 제가 Daring Fireball에 쓴 모든 글은, HTML 양식에 맞춰 작성했습니다(정확히는 *XHTML*, 하지만 이 차이는 그리 중요하지 않습니다).
+2002년 8월부터 작년 8월경(역주: 2003년 8월경)까지, [Daring Fireball](https://daringfireball.net/)을 오픈한 첫해동안, 저는 이 "HTML 코드 조각으로써의 포스트(post-as-snippet-of-HTML)" 개념을 사들여서(buy) 매우 기뻤습니다. 저는 어떤 대안도 생각해본 적이 없었습니다. 제가 [Daring Fireball](https://daringfireball.net/)에 쓴 모든 글은, HTML 양식에 맞춰 작성했습니다(정확히는 *XHTML*, 하지만 이 차이는 그리 중요하지 않습니다).
 
 물론, HTML은 *문서* 형식이기 때문에 HTML *코드 조각*은 유효한 형식일 수 없습니다. 여러분은 ― 모든 태그를 잘 닫고, 앰퍼센드(`&`)와 꺽쇠 괄호 이스케이핑 처리를 잘 하여 ― *훌륭하게 구성한* HTML 코드 조각을 작성할 수 있습니다. 그러나 그 HTML 코드 조각은 [W3C HTML Validator](http://validator.w3.org/)에 통과하지 못할 것이며, BBEdit의 HTML 구문 확인 도구도 통과하지 못할 것입니다.
 
