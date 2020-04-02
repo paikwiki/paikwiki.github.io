@@ -1,6 +1,7 @@
 title: paikwiki
 description: Paikwiki's blog
 permalink: /:year/:month/:title
+url: https://paikwiki.github.io
 lang: ko_KR
 twitter:
   username: ch_Paik
