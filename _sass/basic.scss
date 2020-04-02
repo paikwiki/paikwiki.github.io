@@ -94,6 +94,15 @@ hr {
   margin-bottom: 1.5rem;
 }
 
+/* Utility class */
+.hidden-text {
+  display: block;
+  margin-left: -9999999px;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
 /* Custom elements with class */
 .hard-anchor,
 .hard-anchor:visited {
