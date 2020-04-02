@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  {% if site.url == "http://paikwiki.github.io" %} 
+  {% if site.url == "http://paikwiki.github.io" %}
     {% include ga.html %}
   {% endif %}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% seo %}
-  {% if page.title %}
-    <title>{{ page.title }} - {{ site.title }}</title>
-  {% else %}
-    <title>{{ site.title }}</title>  
-  {% endif %}
   <link rel="stylesheet" type="text/css" href="{{ '/css/styles.css' }}">
   <script type="text/javascript" src="{{ '/assets/js/analytics.js' }}"></script>
 </head>
@@ -25,8 +20,8 @@
     </section>
     <footer>
       <p class="copyright">
-        &copy; {{ site.data.author.copyright_year }}. 
-				<a href="mailto://{{ site.data.author.email }}" class="hard-anchor">{{ site.data.author.name }}</a> ALL RIGHTS RESERVED. 
+        &copy; {{ site.data.author.copyright_year }}.
+				<a href="mailto://{{ site.data.author.email }}" class="hard-anchor">{{ site.data.author.name }}</a> ALL RIGHTS RESERVED.
 				Follow via <a href="/feed.xml">rss</a>
       </p>
     </footer>
