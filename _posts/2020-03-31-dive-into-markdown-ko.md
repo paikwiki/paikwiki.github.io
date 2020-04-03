@@ -135,7 +135,7 @@ This is a paragraph.
 
 솔직히, 저는 이메일 쓰는 걸 좋아합니다. 이메일은 제가 가장 좋아하는 글쓰기 매체입니다. 지난 5년동안 저는 16,000통이 넘는 메일을 보냈습니다. 일반 텍스트 형식의 이메일 규칙을 따르면 어떠한 방해 요소도 없이 분명하고 정확하게 글을 작성할(express) 수 있습니다.
 
-그래서, 웹에서 이메일-스타일의 글쓰기인 마크다운을 소개합니다(Thus, Markdown. Email-style writing for the web).
+그래서, 웹을 위한 이메일-스타일의 글쓰기, 마크다운을 소개합니다(Thus, Markdown. Email-style writing for the web).
 
 텍스트를 HTML로 변환해주는(text-to-HTML) 대부분의 필터는 HTML 태그가 어렵다는 전제를 깔고 있다보니, HTML 태그를 자체적인 태그로 변경하려 하지만, 결국 HTML에 비해 "쉽거나" 가독성이 좋아지는 건 아닙니다. 또한 그 도구들은 직접 조작하는 것을 어렵게 만들고(making it hard to drop into manual), 여러분이 정말로 필요하다고 느낄 때는 그냥 HTML 문법을 그대로 사용하게 만듭니다.
 
