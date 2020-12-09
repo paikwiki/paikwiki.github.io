@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  {% if site.url == "https://paikwiki.github.io" %}
+  {% if site.google_analytics != "" %}
     {% include ga.html %}
+    <script type="text/javascript" src="{{ '/assets/js/analytics.js' }}"></script>
   {% endif %}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% seo %}
-  <link rel="stylesheet" type="text/css" href="{{ '/css/styles.css' }}">
   <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-older.png">
   <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
@@ -20,21 +20,21 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  <script type="text/javascript" src="{{ '/assets/js/analytics.js' }}"></script>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
   <article class="global-wrapper">
     <header class="site-header">
-      <a href="{{ '/' }}" class="hard-anchor" title="main-page"><span>{{ site.title }}</span></a>
+      <a href="{{ '/' | relative_url }}" class="hard-anchor" title="main-page"><span>{{ site.title }}</span></a>
     </header>
     <section class="site-content">
       {{ content }}
     </section>
     <footer>
       <p class="copyright">
-        &copy; {{ site.data.author.copyright_year }}.
-				<a href="mailto://{{ site.data.author.email }}" class="hard-anchor" title="mailto">{{ site.data.author.name }}</a> ALL RIGHTS RESERVED.
-				Follow via <a href="/feed.xml" title="rss">rss</a>
+        &copy; {{ site.copyright_year }}.
+        <a href="mailto://{{ site.author.email }}" class="hard-anchor" title="mailto">{{ site.author.name }}</a> ALL RIGHTS RESERVED.
+        Follow via <a href="/feed.xml" title="rss">rss</a>
       </p>
     </footer>
   </article>

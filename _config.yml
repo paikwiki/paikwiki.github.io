@@ -1,6 +1,12 @@
 title: paikwiki
 description: Paikwiki's blog
 permalink: /:year/:month/:title
+author:
+  name: paikwiki
+  email: paikwiki@gmail.com
+copyright_year: 2018~2020
+google_analytics: UA-115101412-1
+aladin_ttbkey: ttbvdoob0108002
 url: https://paikwiki.github.io
 lang: ko_KR
 twitter:
@@ -10,8 +16,11 @@ social:
   links:
     - https://twitter.com/ch_Paik
     - https://github.com/paikwiki
+sass:
+  style: compressed
+remote_theme: paikwiki/jekyll-theme-paikblog@main
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-
+  - jekyll-remote-theme
