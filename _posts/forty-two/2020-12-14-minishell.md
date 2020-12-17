@@ -5,7 +5,11 @@ date: 2020-12-14
 tags: [42seoul, forty-two, 42cursus, minishell]
 ---
 
-42서울 본과정의 세 번째 서클에 포함된 프로젝트, minishell을 진행하며 작성 중인 메모입니다.
+42서울 본과정의 세 번째 서클에 포함된 프로젝트, minishell을 작성중인 메모입니다. 아래는 과제를 위한 비공개 저장소의 URL입니다. minishell은 팀 프로젝트로, seoh님과 함께 프로젝트를 진행하고 있습니다.
+
+- paikwiki/minishell(private): [https://github.com/paikwiki/minishell](https://github.com/paikwiki/minishell)
+
+과제를 마칠 때까지 본 포스트는 계속 수정됩니다.
 
 ## 토큰
 
@@ -28,10 +32,53 @@ tags: [42seoul, forty-two, 42cursus, minishell]
 1. 리디렉션, 파이프, 세미콜론 : 각 토큰의 정해진 길이만큼 인덱스를 이동시킨 후, 해당 위치까지 토큰으로 처리. 한 글자일 경우엔 이동 없이 해당 문자만 토큰으로 처리
 1. 공백: 연속된 공백만큼 인덱스를 이동한 후, 공백 한 칸만 토큰으로 처리
 
+위 네 가지 경우를 처리하기 위해 `gen_token_space()`, `gen_token_qoutes()`, `gen_token_short()`, `gen_token_string()`, 이렇게 네 개의 함수를 만들었다. `gen_token_space()`를 제외하고 나머지 함수들은 함수 내부에서 데이터에 따라 각각의 타입에 맞게 토큰의 타입을 지정해줄 수 있도록 할 것이다.
+
+토큰을 담는 구조체를 아래처럼 정의했다.
+
+```c
+typedef struct	s_token
+{
+	char	*data;
+	int		type;
+}				t_token;
+```
+
+42서울 본과정 첫 번째 과제로 작성한 Libft의 연결리스트를 이용해 가져온 토큰을 리스트에 저장했다.
 ## 테스트용 명령어
 
-토큰이 잘 나뉘는지 보기 위해서 아래 명령을 사용했다.
+아래 명령어를 이용해 토큰 단위로 잘 쪼개지는지 확인했다.
 
 ```sh
 echo "hello" world 'more "text"' <    test|cat -e   ; echo 'I have | in qoute' >> result.txt
+```
+
+이렇게 입력하면 총 25개의 토큰으로 나뉜다. 아래는 각 토큰의 문자열을 `$문자열$\n` 형태로 출력한 결과이다.
+
+```txt
+$echo$
+$ $
+$"hello"$
+$ $
+$world$
+$ $
+$'more "text"'$
+$ $
+$<$
+$ $
+$test$
+$|$
+$cat$
+$ $
+$-e$
+$ $
+$;$
+$ $
+$echo$
+$ $
+$'I have | in qoute'$
+$ $
+$>>$
+$ $
+$result.txt$
 ```
