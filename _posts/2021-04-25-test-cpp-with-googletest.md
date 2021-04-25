@@ -441,6 +441,10 @@ ostream &operator<<(ostream &out, Greeting const &rhs) { return (out); }
 
 포스트에서 작성한 코드는 깃헙 저장소, [paikwiki/bazel-googletest-sample](https://github.com/paikwiki/bazel-googletest-sample)에서 확인할 수 있다.
 
+---
+
+삽입연산자 오버로딩을 제대로 구현하지 않고 끝냈다는 걸 뒤늦게 깨달았다. 이왕 이렇게 된 거, 혹시 Bazel+GoogleTest를 해보고 싶으신 분은 위 저장소에서 소소코드를 다운 받아 삽입 연산자에 대한, "failure -> green -> refactor" 프로세스를 해보시길 추천드린다.
+
 ## 참고자료
 
 - [Bazel & Google Test in Visual Studio Code](https://www.youtube.com/watch?v=0wMNtl2xDT0)
