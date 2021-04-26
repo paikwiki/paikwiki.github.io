@@ -318,7 +318,7 @@ Greeting::~Greeting() {}
 
 Greeting &Greeting::operator=(Greeting const &rhs) { return (*this); }
 
-std::string Greeting::sayHi(void) const { return (std::string("Hi")); }
+std::string Greeting::sayHi() const { return (std::string("Hi")); }
 
 ostream &operator<<(ostream &out, Greeting const &rhs) { return (out); }
 ```
@@ -424,7 +424,7 @@ Greeting &Greeting::operator=(Greeting const &rhs) { return (*this); }
 
 string const Greeting::greetingMessage = "Hi";
 
-std::string Greeting::sayHi(void) const {
+std::string Greeting::sayHi() const {
   return (this->greetingMessage);
 }
 
