@@ -2,7 +2,7 @@
 layout: post
 title: 기하 평균
 date: 2020-12-13
-tags: [math]
+tags: ["math", "mathematical-formula"]
 ---
 
 n개의 양수 값을 모두 곱한 것의 n제곱근

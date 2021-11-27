@@ -2,7 +2,7 @@
 layout: post
 title: 자연수에 있어서 약수의 개수와 약수의 총합
 date: 2020-12-13
-tags: [math]
+tags: ["math", "mathematical-formula"]
 ---
 
 자연수의 "양의 약수"의 개수와 총합을 구하기

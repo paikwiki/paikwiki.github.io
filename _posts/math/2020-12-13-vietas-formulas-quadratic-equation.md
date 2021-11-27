@@ -2,7 +2,7 @@
 layout: post
 title: 근과 계수와의 관계(비에트 정리, 2차 방정식)
 date: 2020-12-13
-tags: [math]
+tags: ["math", "mathematical-formula"]
 ---
 
 ## 정리

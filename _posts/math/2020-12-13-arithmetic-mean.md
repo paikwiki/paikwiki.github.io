@@ -2,7 +2,7 @@
 layout: post
 title: 산술 평균
 date: 2020-12-13
-tags: [math]
+tags: ["math", "mathematical-formula"]
 ---
 
 주어진 수의 합을 수의 개수로 나눈 값

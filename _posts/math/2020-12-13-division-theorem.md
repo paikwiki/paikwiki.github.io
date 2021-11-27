@@ -2,7 +2,7 @@
 layout: post
 title: 나눗셈 정리(나머지 정리)
 date: 2020-12-13
-tags: [math]
+tags: ["math", "mathematical-formula"]
 ---
 
 ## 정리

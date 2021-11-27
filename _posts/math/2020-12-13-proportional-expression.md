@@ -2,7 +2,7 @@
 layout: post
 title: 비례식
 date: 2020-12-13
-tags: [math]
+tags: ["math", "mathematical-formula"]
 ---
 
 a:b = c:d <=> ad = dc

@@ -2,7 +2,7 @@
 layout: post
 title: 분모의 유리화
 date: 2020-12-13
-tags: [math]
+tags: ["math", "mathematical-formula"]
 ---
 
 분모에 근호가 있는 무리식이 있을 때, 분모의 근호를 제거하여 분모를 유리화

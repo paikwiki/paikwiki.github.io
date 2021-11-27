@@ -2,7 +2,7 @@
 layout: post
 title: 부분 분수
 date: 2020-12-13
-tags: [math]
+tags: ["math", "mathematical-formula"]
 ---
 
 ## 정리

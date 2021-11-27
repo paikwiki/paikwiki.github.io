@@ -2,7 +2,7 @@
 layout: post
 title: 근의 공식
 date: 2020-12-13
-tags: [math]
+tags: ["math", "mathematical-formula"]
 ---
 
 ## 정리

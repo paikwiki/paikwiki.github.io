@@ -2,7 +2,7 @@
 layout: post
 title: 산술-기하 평균 부등식
 date: 2020-12-13
-tags: [math]
+tags: ["math", "mathematical-formula"]
 ---
 
 ## 정리
