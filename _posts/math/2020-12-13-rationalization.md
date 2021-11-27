@@ -11,7 +11,7 @@ tags: ["math", "mathematical-formula"]
 
 $$
 \begin{matrix}
-(1) \quad \frac{a}{\sqrt{b}} = \frac{a\sqrt{b}}{\sqrt{b}\sqrt{b}} = \frac{ab}{\sqrt{b}} (단, b \ne 0) \\
+(1) \quad \frac{a}{\sqrt{b}} = \frac{a\sqrt{b}}{\sqrt{b}\sqrt{b}} = \frac{a\sqrt{b}}{ b } (단, b \ne 0) \\
 \quad \\
 (2) \quad \frac{c}{\sqrt{a} \pm \sqrt{b}}
 = \frac{ c({\sqrt{a} \mp \sqrt{b}}) }{ (\sqrt{a} \pm \sqrt{b})(\sqrt{a} \mp \sqrt{b}) }
